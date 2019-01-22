@@ -1,6 +1,6 @@
 'use strict';
 
-module.exports.read = async (event, context) => {
+module.exports.firstGet = async (event, context) => {
   const message = 'Welcome to the get route!';
   return {
     statusCode: 200,
